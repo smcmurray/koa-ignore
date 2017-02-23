@@ -1,0 +1,27 @@
+{
+  "name": "koa-ignore",
+  "version": "1.0.0",
+  "description": "Koa middleware to make other middleware conditional",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smcmurray/koa-ignore.git"
+  },
+  "keywords": [
+    "koa",
+    "skip",
+    "condition"
+  ],
+  "author": "Sean McMurray",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/smcmurray/koa-ignore/issues"
+  },
+  "homepage": "https://github.com/smcmurray/koa-ignore#readme",
+  "dependencies": {
+    "koa-compose": "next"
+  }
+}
