@@ -52,7 +52,7 @@ let skip = require('koa-ignore');
 
 app.use(skip(logger).if(ctx=>ctx.secure));
 ````
-will skip the logger middleware for any requests that do not use the https protocol.
+will skip the logger middleware for any requests that use the https protocol.
 
 ## unless(function)
 
@@ -66,4 +66,4 @@ let logger = skip(require('crazy-logger'));
 
 app.use(logger.unless(()=>1073741824 < os.free()));
 ````
-will skip the crazy-logger middleware unless there is at least 1 GiB of free memory available.
+will skip the crazy-logger middleware unless there is at least 1 GiB of free memory available at the time of the request.
