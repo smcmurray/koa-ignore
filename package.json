@@ -1,6 +1,6 @@
 {
   "name": "koa-ignore",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Koa middleware to make other middleware conditional",
   "main": "index.js",
   "scripts": {
